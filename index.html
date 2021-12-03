@@ -1,0 +1,34 @@
+<html>
+
+<head>
+    <title>Tasty Treat Menu</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <div class="topnav">
+        <a href="#display_menu" onclick="getmenu()">View Menu</a>
+        <a href="#addTopings" onclick="addTopings()">Add Toppings</a>
+
+    </div>
+    <br><br>
+    <h1>Tasty Treat Menu</h1>
+    <center>
+
+        <img class="pizza-image" src="pizza.png">
+        <br>
+        <div class="menu_div">
+            <div id="display_menu"></div>
+        </div>
+
+        <div id="addTopings">
+            <input id="item" placeholder="Type here to add toppings?">
+            <br>
+            <button class="add" onclick="addItem()">Add Suggested Toppings</button><br><br>
+        </div>
+    </center>
+</body>
+
+</html>
